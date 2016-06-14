@@ -287,12 +287,4 @@ Project.prototype._resetPluginsData = function () {
     };
 };
 
-/**
- * @private
- */
-Project.prototype._reset = function () {
-    this._resetPluginsData();
-    this._router = null;
-};
-
 module.exports = Project;
